@@ -20,22 +20,19 @@ represents the degree or measure of separability. AUC indicates how well a model
 Sampling Strategy = random under-sampling, 0.5, Random States = 42,
 Test size = 20%, Cross Validation = 5 fold
 
-Model          Train Score Test Score Recall Score ROC
-Random Forest  1.000       0.9996     0.0997       0.9998
+Model: Random Forest   Train Score: 1.000   Test Score:  0.9996   Recall Score: 0.0997    ROC: 0.9998
 
 ● Support Vector Machine
 Test size = 30%, Random states 42, Kernel function = linear, RBF, sigmoid,
 polynomial, Cross-validation (cv) = 5 fold, balanced classification
 
-Model Train Score Test Score Recall Score ROC
-SVM   0.8547      0.6163     0.7338       0.5307
+Model: SVM   Train Score: 0.8547     Test Score:  0.6163        Recall Score: 0.7338      ROC: 0.5307
 
 
 ● Multi-Layer Perceptron
 Test size = 30%, Hidden states = 2, Max iterations = 200, Cross Validation
 = 5 fold
-Model Train Score Test Score Recall Score ROC
-MLP   0.8738      0.8688     0.9297       0.837
+Model: MLP   Train Score: 0.8738      Test Score: 0.8688     Recall Score: 0.9297     ROC: 0.837
 
 
 # CONCLUSION
