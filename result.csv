@@ -1,0 +1,4 @@
+,model,train score,test score,recall score,ROC AUC score
+0,Logit,0.9321,0.9309,0.908,0.973
+1,SVM,0.8651,0.5698,0.6549,0.4849
+2,Naive Bayes,0.7777,0.2688,0.0,0.5
